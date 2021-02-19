@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261A28E32042A7B000416990 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261A28E22042A7B000416990 /* UserNotifications.framework */; };
+		261A28EB2043386C00416990 /* TimeChangeReminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A28EA2043386C00416990 /* TimeChangeReminders.swift */; };
+		261A28ED2043387E00416990 /* AzaanReminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A28EC2043387E00416990 /* AzaanReminders.swift */; };
+		261A28EF2043388C00416990 /* IqamaReminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A28EE2043388C00416990 /* IqamaReminders.swift */; };
+		261A28F120433EA100416990 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A28F020433EA100416990 /* Notifications.swift */; };
+		2669153A227F6E4000A3474F /* Model_Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26691539227F6E4000A3474F /* Model_Prayer.swift */; };
+		267973B2208BFF5400AB4734 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 267973B1208BFF5400AB4734 /* GoogleService-Info.plist */; };
+		26808E6B20453FEA004405E5 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26808E6A20453FEA004405E5 /* Cell.swift */; };
+		269655191FFD7A0E00A59D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269655181FFD7A0E00A59D70 /* AppDelegate.swift */; };
+		2696551B1FFD7A0E00A59D70 /* Theme_Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696551A1FFD7A0E00A59D70 /* Theme_Two.swift */; };
+		2696551E1FFD7A0E00A59D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696551C1FFD7A0E00A59D70 /* Main.storyboard */; };
+		269655201FFD7A0E00A59D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2696551F1FFD7A0E00A59D70 /* Assets.xcassets */; };
+		269655231FFD7A0E00A59D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269655211FFD7A0E00A59D70 /* LaunchScreen.storyboard */; };
+		2696552B1FFF279B00A59D70 /* asia_center_prayer_schedule.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2696552A1FFF279B00A59D70 /* asia_center_prayer_schedule.txt */; };
+		26A4BC24201473A000686965 /* islamic_quotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26A4BC23201473A000686965 /* islamic_quotes.txt */; };
+		26B7416D2015C15D00F9D7D1 /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7416C2015C15D00F9D7D1 /* MonthYearPickerView.swift */; };
+		26B7416F2017B22900F9D7D1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7416E2017B22900F9D7D1 /* Settings.swift */; };
+		26CED79C2015A376007FE55E /* MonthlySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CED79B2015A376007FE55E /* MonthlySchedule.swift */; };
+		26FC65C12003EC0F000CAA1A /* Initialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FC65C02003EC0F000CAA1A /* Initialize.swift */; };
+		386DB33210F015B3DC9A2D81 /* Pods_ASIA_Center_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB3AFB15A81BD7A570B0817 /* Pods_ASIA_Center_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26FC65C720047375000CAA1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		261A28E12042A5AB00416990 /* ASIA Center App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ASIA Center App.entitlements"; sourceTree = "<group>"; };
+		261A28E22042A7B000416990 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		261A28EA2043386C00416990 /* TimeChangeReminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeChangeReminders.swift; sourceTree = "<group>"; };
+		261A28EC2043387E00416990 /* AzaanReminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzaanReminders.swift; sourceTree = "<group>"; };
+		261A28EE2043388C00416990 /* IqamaReminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IqamaReminders.swift; sourceTree = "<group>"; };
+		261A28F020433EA100416990 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		26691539227F6E4000A3474F /* Model_Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Prayer.swift; sourceTree = "<group>"; };
+		267973B1208BFF5400AB4734 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26808E6A20453FEA004405E5 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		269655151FFD7A0E00A59D70 /* ASIA Center App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASIA Center App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		269655181FFD7A0E00A59D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2696551A1FFD7A0E00A59D70 /* Theme_Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme_Two.swift; sourceTree = "<group>"; };
+		2696551D1FFD7A0E00A59D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2696551F1FFD7A0E00A59D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269655221FFD7A0E00A59D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269655241FFD7A0F00A59D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2696552A1FFF279B00A59D70 /* asia_center_prayer_schedule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = asia_center_prayer_schedule.txt; sourceTree = "<group>"; };
+		26A4BC23201473A000686965 /* islamic_quotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = islamic_quotes.txt; sourceTree = "<group>"; };
+		26B7416C2015C15D00F9D7D1 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		26B7416E2017B22900F9D7D1 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		26CED79B2015A376007FE55E /* MonthlySchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlySchedule.swift; sourceTree = "<group>"; };
+		26FC65C02003EC0F000CAA1A /* Initialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initialize.swift; sourceTree = "<group>"; };
+		26FC65C32004735B000CAA1A /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C645258E3FC1B30052D2B7E9 /* Pods-ASIA Center App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASIA Center App.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASIA Center App/Pods-ASIA Center App.release.xcconfig"; sourceTree = "<group>"; };
+		F8A647F98E37DCCD7CB3F97C /* Pods-ASIA Center App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASIA Center App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASIA Center App/Pods-ASIA Center App.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB3AFB15A81BD7A570B0817 /* Pods_ASIA_Center_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASIA_Center_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269655121FFD7A0E00A59D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261A28E32042A7B000416990 /* UserNotifications.framework in Frameworks */,
+				386DB33210F015B3DC9A2D81 /* Pods_ASIA_Center_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2696550C1FFD7A0E00A59D70 = {
+			isa = PBXGroup;
+			children = (
+				269655171FFD7A0E00A59D70 /* ASIA Center App */,
+				269655161FFD7A0E00A59D70 /* Products */,
+				E4BC7D0A84C99D5DEDA15797 /* Pods */,
+				F5249ABB2DB8374098E6033F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		269655161FFD7A0E00A59D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269655151FFD7A0E00A59D70 /* ASIA Center App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269655171FFD7A0E00A59D70 /* ASIA Center App */ = {
+			isa = PBXGroup;
+			children = (
+				267973B1208BFF5400AB4734 /* GoogleService-Info.plist */,
+				261A28E12042A5AB00416990 /* ASIA Center App.entitlements */,
+				269655181FFD7A0E00A59D70 /* AppDelegate.swift */,
+				2696551A1FFD7A0E00A59D70 /* Theme_Two.swift */,
+				26FC65C02003EC0F000CAA1A /* Initialize.swift */,
+				26CED79B2015A376007FE55E /* MonthlySchedule.swift */,
+				2696551C1FFD7A0E00A59D70 /* Main.storyboard */,
+				2696551F1FFD7A0E00A59D70 /* Assets.xcassets */,
+				269655211FFD7A0E00A59D70 /* LaunchScreen.storyboard */,
+				2696552A1FFF279B00A59D70 /* asia_center_prayer_schedule.txt */,
+				26A4BC23201473A000686965 /* islamic_quotes.txt */,
+				269655241FFD7A0F00A59D70 /* Info.plist */,
+				26B7416C2015C15D00F9D7D1 /* MonthYearPickerView.swift */,
+				26B7416E2017B22900F9D7D1 /* Settings.swift */,
+				261A28EA2043386C00416990 /* TimeChangeReminders.swift */,
+				261A28EC2043387E00416990 /* AzaanReminders.swift */,
+				261A28EE2043388C00416990 /* IqamaReminders.swift */,
+				261A28F020433EA100416990 /* Notifications.swift */,
+				26808E6A20453FEA004405E5 /* Cell.swift */,
+				26691539227F6E4000A3474F /* Model_Prayer.swift */,
+			);
+			path = "ASIA Center App";
+			sourceTree = "<group>";
+		};
+		E4BC7D0A84C99D5DEDA15797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8A647F98E37DCCD7CB3F97C /* Pods-ASIA Center App.debug.xcconfig */,
+				C645258E3FC1B30052D2B7E9 /* Pods-ASIA Center App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5249ABB2DB8374098E6033F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				261A28E22042A7B000416990 /* UserNotifications.framework */,
+				26FC65C32004735B000CAA1A /* SQLite.framework */,
+				FDB3AFB15A81BD7A570B0817 /* Pods_ASIA_Center_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269655141FFD7A0E00A59D70 /* ASIA Center App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269655271FFD7A0F00A59D70 /* Build configuration list for PBXNativeTarget "ASIA Center App" */;
+			buildPhases = (
+				DC5CBD7F682CFABDB0E4B542 /* [CP] Check Pods Manifest.lock */,
+				269655111FFD7A0E00A59D70 /* Sources */,
+				269655121FFD7A0E00A59D70 /* Frameworks */,
+				269655131FFD7A0E00A59D70 /* Resources */,
+				E5D15787862BB1A0530EB9E3 /* [CP] Embed Pods Frameworks */,
+				8B29878573E4A9FFDAEB5EC7 /* [CP] Copy Pods Resources */,
+				26FC65C720047375000CAA1A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASIA Center App";
+			productName = "ASIA Center App";
+			productReference = 269655151FFD7A0E00A59D70 /* ASIA Center App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2696550D1FFD7A0E00A59D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = IKapps;
+				TargetAttributes = {
+					269655141FFD7A0E00A59D70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 269655101FFD7A0E00A59D70 /* Build configuration list for PBXProject "ASIA Center App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2696550C1FFD7A0E00A59D70;
+			productRefGroup = 269655161FFD7A0E00A59D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269655141FFD7A0E00A59D70 /* ASIA Center App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269655131FFD7A0E00A59D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A4BC24201473A000686965 /* islamic_quotes.txt in Resources */,
+				269655231FFD7A0E00A59D70 /* LaunchScreen.storyboard in Resources */,
+				2696552B1FFF279B00A59D70 /* asia_center_prayer_schedule.txt in Resources */,
+				269655201FFD7A0E00A59D70 /* Assets.xcassets in Resources */,
+				2696551E1FFD7A0E00A59D70 /* Main.storyboard in Resources */,
+				267973B2208BFF5400AB4734 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B29878573E4A9FFDAEB5EC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASIA Center App/Pods-ASIA Center App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC5CBD7F682CFABDB0E4B542 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASIA Center App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D15787862BB1A0530EB9E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ASIA Center App/Pods-ASIA Center App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CountdownLabel/CountdownLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SpreadsheetView/SpreadsheetView.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountdownLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpreadsheetView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASIA Center App/Pods-ASIA Center App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269655111FFD7A0E00A59D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261A28F120433EA100416990 /* Notifications.swift in Sources */,
+				26808E6B20453FEA004405E5 /* Cell.swift in Sources */,
+				261A28EF2043388C00416990 /* IqamaReminders.swift in Sources */,
+				26B7416F2017B22900F9D7D1 /* Settings.swift in Sources */,
+				2669153A227F6E4000A3474F /* Model_Prayer.swift in Sources */,
+				261A28EB2043386C00416990 /* TimeChangeReminders.swift in Sources */,
+				26CED79C2015A376007FE55E /* MonthlySchedule.swift in Sources */,
+				261A28ED2043387E00416990 /* AzaanReminders.swift in Sources */,
+				26B7416D2015C15D00F9D7D1 /* MonthYearPickerView.swift in Sources */,
+				2696551B1FFD7A0E00A59D70 /* Theme_Two.swift in Sources */,
+				269655191FFD7A0E00A59D70 /* AppDelegate.swift in Sources */,
+				26FC65C12003EC0F000CAA1A /* Initialize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2696551C1FFD7A0E00A59D70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2696551D1FFD7A0E00A59D70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		269655211FFD7A0E00A59D70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269655221FFD7A0E00A59D70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		269655251FFD7A0F00A59D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		269655261FFD7A0F00A59D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		269655281FFD7A0F00A59D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A647F98E37DCCD7CB3F97C /* Pods-ASIA Center App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ASIA Center App/ASIA Center App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = TNG5S8LHD5;
+				INFOPLIST_FILE = "ASIA Center App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.asiacenter.ASIACenterPrayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		269655291FFD7A0F00A59D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C645258E3FC1B30052D2B7E9 /* Pods-ASIA Center App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ASIA Center App/ASIA Center App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = TNG5S8LHD5;
+				INFOPLIST_FILE = "ASIA Center App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.asiacenter.ASIACenterPrayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269655101FFD7A0E00A59D70 /* Build configuration list for PBXProject "ASIA Center App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269655251FFD7A0F00A59D70 /* Debug */,
+				269655261FFD7A0F00A59D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269655271FFD7A0F00A59D70 /* Build configuration list for PBXNativeTarget "ASIA Center App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269655281FFD7A0F00A59D70 /* Debug */,
+				269655291FFD7A0F00A59D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2696550D1FFD7A0E00A59D70 /* Project object */;
+}
