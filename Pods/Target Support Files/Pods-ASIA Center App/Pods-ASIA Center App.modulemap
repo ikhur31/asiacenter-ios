@@ -1,0 +1,6 @@
+framework module Pods_ASIA_Center_App {
+  umbrella header "Pods-ASIA Center App-umbrella.h"
+
+  export *
+  module * { export * }
+}
